@@ -1,0 +1,31 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="Home">
+    </ActionBar>
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+
+            <Label textWrap="true" text="NativeScript and Google Sheets Integration" class="h1" />
+            <Label textWrap="true" id="introText"
+                text="Use this Native App (Android / iOS) to submit data into a Google Sheet!" />
+
+            <Label text="Name" class="label" />
+
+            <TextField text="{{ userName }}" class="inputText"
+                hint="John Smith" />
+
+            <Label text="Email" class="label" />
+
+            <TextField text="{{ userEmail }}" class="inputText"
+                hint="my@email.com" />
+            <Label text="My Question" class="label" />
+
+            <TextField text="{{ userQuestion }}" class="inputText"
+                hint="I'd like to know..." />
+
+            <Button text="Ask" class="btn" tap="onSubmit" />
+
+        </StackLayout>
+    </ScrollView>
+</Page>

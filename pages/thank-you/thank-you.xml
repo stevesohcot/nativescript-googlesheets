@@ -1,0 +1,12 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+    <ActionBar title="Thank You!">
+    </ActionBar>
+    <ScrollView>
+        <StackLayout class="home-panel">
+
+            <Label textWrap="true" id="thankYou" text="Thank You" />
+            <Label textWrap="true" id="thankYouSubText" text="We'll get back to you soon." />
+
+        </StackLayout>
+    </ScrollView>
+</Page>

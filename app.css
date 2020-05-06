@@ -1,0 +1,44 @@
+@import '~@nativescript/theme/css/core.css';
+
+.h1 {
+    font-size: 30;
+    color: purple;
+    text-align: center;
+}
+
+#introText {
+    font-size: 16;    
+    margin-bottom: 50;
+}
+
+#thankYou {
+    font-size: 30;
+    color: purple;
+    text-align: center;
+}
+
+#thankYouSubText {
+    font-size: 20;
+    text-align: center;
+}
+
+.label {
+    font-size: 10;
+    margin-top: 20;
+}
+
+.inputText {
+    font-size: 20;
+}
+
+.btn {
+    font-size: 18;
+    color: white;
+    background-color: blue;
+}
+
+.home-panel{
+    vertical-align: center;
+    font-size: 30;
+    margin: 15;
+}
